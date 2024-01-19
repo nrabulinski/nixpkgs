@@ -14250,6 +14250,8 @@ self: super: with self; {
 
   textual-textarea = callPackage ../development/python-modules/textual-textarea { };
 
+  textual-fastdatatable = callPackage ../development/python-modules/textual-fastdatatable { };
+
   testbook = callPackage ../development/python-modules/testbook { };
 
   testing-common-database = callPackage ../development/python-modules/testing-common-database { };
