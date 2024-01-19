@@ -13128,6 +13128,8 @@ self: super: with self; {
 
   shamir-mnemonic = callPackage ../development/python-modules/shamir-mnemonic { };
 
+  shandy-sqlfmt = callPackage ../development/python-modules/shandy-sqlfmt { };
+
   shap = callPackage ../development/python-modules/shap { };
 
   shapely = callPackage ../development/python-modules/shapely { };
