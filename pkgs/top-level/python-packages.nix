@@ -14248,6 +14248,8 @@ self: super: with self; {
 
   textual-universal-directorytree = callPackage ../development/python-modules/textual-universal-directorytree { };
 
+  textual-textarea = callPackage ../development/python-modules/textual-textarea { };
+
   testbook = callPackage ../development/python-modules/testbook { };
 
   testing-common-database = callPackage ../development/python-modules/testing-common-database { };
